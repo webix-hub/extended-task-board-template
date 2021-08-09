@@ -1,0 +1,91 @@
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 16px;
+    width: 100%;
+}
+
+.cardTitle {
+    color: #94A1B3;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+.cardText {
+    font-weight: 500;
+    line-height: 20px;
+    color: #475466;
+}
+
+.cardPriority {
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 8px;
+}
+
+.cardDate {
+    color: #94A1B3;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.low {
+    color: #1CA1C1;
+}
+
+.middle {
+    color: #FDBF4C;
+}
+
+.high {
+    color: #FF5C4C;
+}
+
+.webix_kanban_list_item {
+    .webix_kanban_footer {
+        padding: 0 12px;
+        margin-bottom: 10px;
+    }
+}
+
+.webix_kanban_list_item {
+    &.webix_selected {
+        .webix_kanban_list_content {
+            background: rgba(190, 242, 254, 0.21);
+        }
+    }
+    .webix_kanban_footer_icon {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+}
+
+.webix_kanban_icon_text {
+    font-size: 12px;
+}
+
+.webix_kanban_header {
+    .webix_template {
+        background: #1ca1c1;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0 12px 0 20px;
+        text-transform: uppercase;
+        margin-right: 1px;
+    }
+    .webix_icon {
+        color: #FFFFFF;
+        opacity: 0.8;
+        &:hover {
+            color: #FFFFFF;
+            opacity: 1;
+        }
+    } 
+}

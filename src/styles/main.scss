@@ -1,0 +1,12 @@
+@import "header";
+@import "userTemplate";
+@import "recentActivities";
+@import "kanbanTable";
+
+.flex {
+    display: flex;
+}
+
+.alignCenter {
+    align-items: center;
+}

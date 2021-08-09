@@ -1,0 +1,65 @@
+.playBtn {
+    background: #CCD7E5;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    height: 20px;
+    width: 38px;
+    &:after {
+        content: '';
+        border: 5px solid transparent;
+        border-left: 8px solid #FFFFFF;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-25%, -50%);
+       }
+}
+
+.flexCol {
+    .webix_cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.status {
+    font-weight: 500;
+    padding-left: 14px;
+    position: relative;
+    &:before {
+        content: '';
+        border-radius: 50%;
+        position: absolute;
+        top: 5px;
+        left: 0;
+        width: 6px;
+        height: 6px;
+    }
+}
+
+.open {
+    color: #8664c6;
+    &:before {
+        background: #8664c6;
+    }
+}
+.progress {
+    color: #fdbf4c;
+    &:before {
+        background: #fdbf4c;
+    }
+}
+.review {
+    color: #1ca1c1;
+    &:before {
+        background: #1ca1c1;
+    }
+}
+.done {
+    color: #55cd97;
+    &:before {
+        background: #55cd97;
+    }
+}
